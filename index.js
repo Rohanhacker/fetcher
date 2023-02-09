@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { FetchCli } from "./fetchCli.js";
 
 const cli = new FetchCli()
