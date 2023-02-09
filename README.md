@@ -16,6 +16,9 @@
 
 ## How to run
 
+#### Note
+ I've created a `fetch` command but if you want to run it like `./fetch` then you can also do `./index` instead of `./fetch` or just use the command fetch. I hope that's okay. 
+
 ### Using docker
 - build the image \
 `docker build . -t rohanhacker/autify`
