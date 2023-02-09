@@ -1,4 +1,4 @@
-import { DataTypes, Model } from "sequelize";
+import { DataTypes, Model } from "sequelize"
 import { sequelize } from "./db.js"
 
 export class MetaData extends Model {}
@@ -8,11 +8,11 @@ MetaData.init(
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
-      primaryKey: true
+      primaryKey: true,
     },
     url: {
       type: DataTypes.STRING,
-      unique: true
+      unique: true,
     },
     links: {
       type: DataTypes.INTEGER,
@@ -25,4 +25,4 @@ MetaData.init(
     sequelize,
     modelName: "MetaData",
   }
-);
+)

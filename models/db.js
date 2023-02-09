@@ -1,9 +1,9 @@
-import { Sequelize } from "sequelize";
+import { Sequelize } from "sequelize"
 
-const dbPath = new URL('database.sqlite', import.meta.url).pathname
+const dbPath = new URL("database.sqlite", import.meta.url).pathname
 
 export const sequelize = new Sequelize({
   dialect: "sqlite",
   storage: dbPath,
-});
-
+  logging: false
+})
