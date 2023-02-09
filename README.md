@@ -43,3 +43,7 @@ for example: \
 - use flag --metadata to get metadata of an url for example" \
 `fetch --metadata http://rohan.com`
 
+## Video Demo
+
+https://user-images.githubusercontent.com/9512969/217803754-03bb31c7-d862-4e04-bf33-cce36b556eb1.mov
+
