@@ -2,7 +2,7 @@
 
 ## tech stack
 - node.js (version 18)
-- javascript (didn't choose typescript because didn't want to spend time setting up)
+- javascript (didn't choose typescript because didn't want to spend time setting up, in prod version I'd have choosen typescript)
 - sqllite (it's a simple cli which will be used on local so didn't want to use something lightweight)
 - sequalize (orm to make things maintainable)
 - node fetch (because fetch api in node is not so stable)
