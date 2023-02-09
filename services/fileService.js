@@ -6,7 +6,7 @@ export class FileService {
    * @param {*} pages
    */
   async saveToDisk(pages) {
-    await Promise.all(
+    await Promise.allSettled(
       pages.map(async (page) => {
         const pathToSave = `./${page.url.split("//")[1]}.html`
         return await fs.promises.writeFile(pathToSave, page.source, {
