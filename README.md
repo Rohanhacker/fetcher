@@ -1,4 +1,4 @@
-# Autify backend assignment
+# backend assignment
 
 ## tech stack
 - node.js (version 18)
